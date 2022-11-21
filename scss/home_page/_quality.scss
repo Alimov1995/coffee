@@ -1,0 +1,32 @@
+.quality {
+  margin: 0 auto;
+  width: 1280px;
+  height: 475px;
+  background: #2c343e;
+  border-radius: 10px;
+
+  &__element {
+    display: flex;
+    justify-content: space-around;
+  }
+  &__title {
+    margin-top: 125px;
+    margin-bottom: 24px;
+    font-family: "Fraunces_9pt-Black";
+    font-size: 40px;
+    line-height: 48px;
+    color: #fefcf7;
+  }
+  &__text {
+    width: 540px;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+  }
+  &__right {
+    position: relative;
+    top: -70px;
+    background-image: url(../../img/quality.png);
+    width: 445px;
+    height: 474px;
+  }
+}

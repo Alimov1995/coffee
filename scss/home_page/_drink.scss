@@ -1,0 +1,52 @@
+.drink {
+  &__element {
+    display: flex;
+    gap: 125px;
+    margin-top: 160px;
+    margin-left: 100px;
+  }
+
+  &__colum {
+    @include title;
+    color: #83888f;
+
+    cursor: pointer;
+    &:hover {
+      color: #333d4b;
+    }
+    span {
+      padding-right: 24px;
+    }
+  }
+  &__line {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    width: 255px;
+    opacity: 0.25;
+  }
+
+  &__title {
+    font-family: "Fraunces_9pt-Black";
+    font-size: 40px;
+    line-height: 48px;
+    color: #83888f;
+  }
+  &__list {
+    display: flex;
+    gap: 23px;
+    margin-top: 56px;
+    list-style: none;
+  }
+  &__item {
+    @include card;
+  }
+  &__headline {
+    width: 100px;
+    @include title;
+  }
+  &__subtitle {
+    padding-top: 24px;
+    width: 172px;
+    color: #333d4b;
+  }
+}

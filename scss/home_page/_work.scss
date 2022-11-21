@@ -1,0 +1,65 @@
+.work {
+  margin-top: 400px;
+
+  &__title {
+    padding-left: 90px;
+    padding-bottom: 80px;
+    font-family: "Fraunces_9pt-Black";
+    font-size: 24px;
+    line-height: 32px;
+    color: #83888f;
+  }
+
+  &__disk {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 90px;
+    margin-bottom: 82px;
+    width: 760px;
+    height: 1px;
+    background-color: #fdd6ba;
+    border: 1px solid #fdd6ba;
+  }
+  &__circle {
+    width: 31px;
+    height: 31px;
+    border: 2px solid #0e8784;
+    border-radius: 50%;
+    background: #fefcf7;
+  }
+
+  &__list {
+    display: flex;
+    gap: 80px;
+    padding-left: 90px;
+    list-style: none;
+  }
+
+  &__number {
+    font-family: "Fraunces_9pt-Black";
+    font-size: 72px;
+    line-height: 72px;
+    color: #fdd6ba;
+  }
+
+  &__caption {
+    margin-top: 38px;
+    margin-bottom: 42px;
+    width: 255px;
+    font-family: "Fraunces_9pt-Black";
+    font-size: 32px;
+    line-height: 36px;
+    color: #333d4b;
+  }
+
+  &__text {
+    width: 285px;
+    color: #333d4b;
+  }
+  &__btn {
+    @include btnnnn;
+    margin-left: 85px;
+    margin-top: 64px;
+  }
+}

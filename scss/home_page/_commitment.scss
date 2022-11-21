@@ -1,0 +1,24 @@
+.commitment {
+  margin-top: 168px;
+  margin-bottom: 256px;
+
+  &__card {
+    display: flex;
+    justify-content: center;
+    gap: 125px;
+  }
+  &__title {
+    margin-top: 125px;
+    margin-bottom: 24px;
+    font-family: "Fraunces_9pt-Black";
+    font-size: 40px;
+    line-height: 48px;
+    color: #333d4b;
+  }
+  &__text {
+    width: 538px;
+    color: #333d4b;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+  }
+}

@@ -1,0 +1,34 @@
+.footer {
+  width: 1280px;
+  margin: 0 auto;
+  margin-top: 200px;
+  background: #2c343e;
+
+  &__element {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 47px 58px;
+  }
+
+  &__left {
+    display: flex;
+    align-items: center;
+  }
+
+  &__list {
+    display: flex;
+    gap: 33px;
+    padding-left: 102px;
+    list-style: none;
+  }
+
+  &__item:hover {
+    color: #fefcf7;
+  }
+
+  &__right {
+    display: flex;
+    gap: 24px;
+  }
+}

@@ -1,0 +1,69 @@
+.hero {
+  margin: 0 auto;
+  margin-top: 45px;
+  width: 1280px;
+  height: 600px;
+  background-image: url(../../img/coffee-img-hero.png);
+  border-radius: 10px;
+
+  &--about {
+    margin: 0 auto;
+    margin-top: 45px;
+    width: 1280px;
+    height: 450px;
+    background-image: url(../../img/about-hero.png);
+    border-radius: 10px;
+    .hero__element {
+      padding-top: 137px;
+      padding-left: 85px;
+    }
+    .hero__title {
+      margin-bottom: 24px;
+      font-size: 40px;
+      line-height: 48px;
+    }
+    .hero__text {
+      width: 450px;
+    }
+  }
+
+  &--subscribe {
+    margin: 0 auto;
+    margin-top: 45px;
+    width: 1280px;
+    height: 450px;
+    background-image: url(../../img/subscribe.png);
+    border-radius: 10px;
+    .hero__title {
+      width: 500px;
+      font-family: "Fraunces_9pt-Black";
+      font-size: 72px;
+      line-height: 72px;
+      color: #fefcf7;
+    }
+  }
+
+  &__element {
+    padding-top: 80px;
+    padding-left: 85px;
+  }
+
+  &__title {
+    margin-bottom: 32px;
+    width: 500px;
+    font-family: "Fraunces_9pt-Black";
+    font-size: 72px;
+    line-height: 72px;
+    color: #fefcf7;
+  }
+
+  &__text {
+    margin-bottom: 56px;
+    width: 400px;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+  }
+  &__btn {
+    @include btnnnn;
+  }
+}
